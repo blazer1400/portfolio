@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Portfolio Stan Broersma</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+</head>
+<body>
+<header>
+	<div id="homeFullScreen">
+		<div class="header-text">
+			<h1>Stan Broersma</h1>
+			<div class="vertical-line"></div>
+			<p>Software Developer</p>
+		</div>
+		<a href="#portfolio-container">
+			<div class="arrow">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+		</a>
+	</div>
+</header>
+
+<!-- portfolio -->
+
+<section class="portfolio" id="portfolio">
+	<div id="portfolio-container" class="portfolio-container">
+		<nav>
+			<div>
+				<div><button onclick="show('aboutme')">About me</button></div>
+				<div><button onclick="show('myskills')">My skills</button></div>
+				<div><button onclick="show('mywork')">My work</button></div>
+				<div><button onclick="show('contact')">Contact</button></div>
+			</div>
+		</nav>
+	</div>
+	<div class="content-container">
+		<div class="aboutme" id="aboutme">
+			<div class="text">
+				<h1>Hi!</h1>
+				<div class="imgbox">
+					<img src="images/mooi.jpg">
+				</div>
+				<div>
+					<p>My name is Stan and i'm 18 years old. I am a Software Developer student at ROC van Flevoland.</p>
+				</div>
+			</div>
+		</div>
+		<div class="myskills" id="myskills">
+			<div class="text">
+				<p>HTML</p>
+				<div class="container">
+					<div class="skills html">90%</div>
+				</div>
+
+				<p>CSS</p>
+				<div class="container">
+					<div class="skills css">85%</div>
+				</div>
+
+				<p>PHP</p>
+				<div class="container">
+					<div class="skills php">80%</div>
+				</div>
+
+				<p>JavaScript</p>
+				<div class="container">
+					<div class="skills js">70%</div>
+				</div>
+
+				<p>SQL</p>
+				<div class="container">
+					<div class="skills sql">65%</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="mywork" id="mywork">
+			<div class="grid-container">
+				<div class="area">
+					<img src="images/joetoep.png">
+					<a href="http://joetoep.ml" target="_blank"><h3>Joetoep</h3></a>
+				</div>
+
+				<div class="area">
+					<img src="images/twinter.png">
+					<a href="http://twinter.000webhostapp.com" target="_blank"><h3>Twinter</h3></a>
+				</div>
+
+				<div class="area">
+					<img src="images/bierhier.png">
+					<a href="http://bierhier.ga" target="_blank"><h3>Schoolproject Bierhier</h3></a>
+				</div>
+			</div>
+		</div>
+		<div class="contact" id="contact">
+			<p>Email: <a href="mailto:sbroersma@roc-dev.com">sbroersma@roc-dev.com</a></p>
+			<h1>Socials</h1>
+			<a href="https://www.linkedin.com/in/stan-broersma-215450227/" target="_blank">LinkedIn</a><br>
+			<a href="https://github.com/blazer1400" target="_blank">Github</a><br>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.807469309359!2d5.274453451100872!3d52.39204045335797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c617c1cf86b0cd%3A0xd2ae22c04100b805!2sStraat%20van%20Florida%201%2C%201334%20PA%20Almere!5e0!3m2!1snl!2snl!4v1638365262030!5m2!1snl!2snl" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	</div>
+</section>
+
+<!-- Main JS -->
+<script type="text/javascript" src="js/jquery-main.js"></script>
+
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- Animation JS -->
+<script type="text/javascript" src="js/wow.min.js"></script>
+
+<!-- Custom JS -->
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
