@@ -150,7 +150,8 @@ body {
 }
 .myskills {
     display:none;
-    margin-top:17vh;
+    margin:17vh auto auto auto;
+    width: fit-content;
 }
 .myskills p {
     margin-top:5vh;
@@ -160,7 +161,7 @@ body {
 }
 
 .myskills .container {
-    width: 100%;
+    width: 120vh;
     background-color: #ddd;
     border-radius:20px;
 }
@@ -173,7 +174,7 @@ body {
     color: white;
 }
 
-.myskills .html, .myskills .css, .myskills .js, .myskills .php, .myskills .sql {
+.myskills .html, .myskills .css, .myskills .js, .myskills .php, .myskills .sql, .myskills .java {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -198,6 +199,10 @@ body {
     width: 65%;
     background-color: #4dd2a9;
 }
+.myskills .java {
+    width:30%;
+    background-color: #f48836;
+}
 .mywork {
     display:none;
 }
@@ -205,6 +210,10 @@ body {
     margin-top:100px;
     display:grid;
     grid-template-areas: "auto auto auto";
+    grid-row-gap: 5vh;
+    grid-column-gap: 7vw;
+    justify-content: center;
+    align-content: center;
 }
 .grid-container .area {
     grid-area: auto;
