@@ -28,12 +28,17 @@ body {
     text-align: center;
     margin: auto;
 }
-
-.header-text h1
-{
+.header-text h1 {
     font-size: 60px;
     color: #fff;
     text-transform: uppercase;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.header-text span {
+    font-size:25px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .header-text .vertical-line
@@ -94,8 +99,8 @@ body {
 }
 .portfolio-container nav {
     background-color: #000f21;
-    width:10vw;
-    height:100vh;
+    width:10%;
+    height:100%;
     position:relative;
 }
 .portfolio-container nav div {
@@ -126,7 +131,7 @@ body {
 
 .aboutme, .myskills, .mywork, .contact {
     transition-duration:0.4s;
-    opacity:0;
+
 }
 
 .aboutme .text {
@@ -150,18 +155,18 @@ body {
 }
 .myskills {
     display:none;
-    margin:17vh auto auto auto;
-    width: fit-content;
+    margin:5% auto auto auto;
+    width: 90%;
 }
 .myskills p {
-    margin-top:5vh;
+    margin-top:4%;
 }
 .myskills * {
     box-sizing:border-box;
 }
 
 .myskills .container {
-    width: 120vh;
+    width: 100%;
     background-color: #ddd;
     border-radius:20px;
 }
@@ -210,7 +215,7 @@ body {
     margin-top:100px;
     display:grid;
     grid-template-areas: "auto auto auto";
-    grid-row-gap: 5vh;
+    grid-row-gap: 12vh;
     grid-column-gap: 7vw;
     justify-content: center;
     align-content: center;
@@ -218,8 +223,8 @@ body {
 .grid-container .area {
     grid-area: auto;
     background-color: #01234a;
-    width:300px;
-    height:350px;
+    width:100%;
+    height:130%;
     border:3px solid #012d60;
     overflow:hidden;
     border-radius:20px;
@@ -233,7 +238,7 @@ body {
     width:300px;
 }
 .contact {
-    margin:250px auto auto auto;
+    margin:10% auto auto auto;
     width: fit-content;
     font-size:20px;
     display:none;

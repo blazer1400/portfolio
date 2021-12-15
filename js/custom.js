@@ -13,6 +13,17 @@ $(document).ready(function() {
 
 });
 
+var typed = new Typed('#typed',{
+    stringsElement: '#typed-strings',
+    typeSpeed: 50,
+    backSpeed: 40,
+    backDelay: 1000,
+    loop: true,
+    smartBackspace: true,
+    cursorChar: '_',
+    attr: null
+});
+
 var aboutme = document.getElementById("aboutme");
 var myskills = document.getElementById("myskills");
 var mywork = document.getElementById("mywork");
