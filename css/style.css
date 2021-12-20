@@ -282,6 +282,9 @@ body {
         margin-right:auto;
         width:100%;
     }
+    .aboutme {
+        margin-top:-200px;
+    }
     .aboutme .imgbox {
         float: none;
     }
