@@ -290,6 +290,7 @@ body {
     }
     .aboutme .text {
         width:100%;
+        margin-top:0;
     }
     .myskills {
         margin-top:200px;
