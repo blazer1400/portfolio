@@ -97,13 +97,13 @@ body {
     width: 100%;
     color:white;
 }
-.portfolio-container nav {
+.portfolio-container .nav {
     background-color: #000f21;
     width:10%;
     height:100%;
     position:relative;
 }
-.portfolio-container nav div {
+.portfolio-container .nav div {
     height:25vh;
 }
 .portfolio-container nav div button {
@@ -119,6 +119,31 @@ body {
 .portfolio-container nav button:hover {
     background-color:blue;
 }
+
+.portfolio-container .mobile-nav {
+    display:none;
+    position:relative;
+    width:100%;
+    height:75px;
+    background-color: #000f21;
+}
+.portfolio-container .mobile-nav .bar img {
+    width:50px;
+}
+.portfolio-container .mobile-nav .bar a {
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+}
+.portfolio-container .mobile-nav .dropdown {
+    background-color: #000f21;
+    height:fit-content;
+    top:75px;
+    display:none;
+}
+.portfolio-container .mobile-nav button, .portfolio-container .mobile-nav a {
+    cursor:pointer;
+}
 .content-container {
     color:white;
     margin-top:-102vh;
@@ -131,7 +156,6 @@ body {
 
 .aboutme, .myskills, .mywork, .contact {
     transition-duration:0.4s;
-
 }
 
 .aboutme .text {
@@ -245,4 +269,44 @@ body {
 }
 .contact iframe {
     margin-top:50px;
+}
+@media all and (max-width:780px) {
+    .nav {
+        display:none;
+    }
+    .portfolio-container .mobile-nav {
+        display:block;
+    }
+    .content-container {
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+    }
+    .aboutme .imgbox {
+        float: none;
+    }
+    .aboutme .text {
+        width:100%;
+    }
+    .myskills {
+        margin-top:200px;
+    }
+    .grid-container {
+        grid-template-areas: "auto auto";
+        grid-column-gap:2vh;
+        margin-top:130px;
+        margin-left:20px;
+    }
+    .grid-container .area {
+        width:90%;
+    }
+    .contact {
+        margin-top:150px;
+    }
+    .contact p, .contact h1, .contact a {
+        margin-left:20px;
+    }
+    .contact iframe {
+        width:600px;
+    }
 }

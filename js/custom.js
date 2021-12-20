@@ -85,3 +85,9 @@ function show(article) {
             break;
     }
 }
+function showDropdown() {
+    document.getElementById("dropdown").style.display = "block";
+}
+function hideDropdown() {
+    document.getElementById("dropdown").style.display = "none";
+}

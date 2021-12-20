@@ -38,8 +38,20 @@
 
 <section class="portfolio" id="portfolio">
 	<div id="portfolio-container" class="portfolio-container">
-		<nav>
+		<nav class="nav">
 			<div>
+				<div><button onclick="show('aboutme')">About me</button></div>
+				<div><button onclick="show('myskills')">My skills</button></div>
+				<div><button onclick="show('mywork')">My work</button></div>
+				<div><button onclick="show('contact')">Contact</button></div>
+			</div>
+		</nav>
+
+		<nav class="mobile-nav">
+			<div class="bar">
+				<a class="menubutton" onclick="showDropdown()"><img src="images/menuicon.svg"></a>
+			</div>
+			<div class="dropdown" id="dropdown" onmouseleave="hideDropdown()">
 				<div><button onclick="show('aboutme')">About me</button></div>
 				<div><button onclick="show('myskills')">My skills</button></div>
 				<div><button onclick="show('mywork')">My work</button></div>
@@ -51,11 +63,11 @@
 		<div class="aboutme" id="aboutme">
 			<div class="text">
 				<h1>Hi!</h1>
-				<div class="imgbox">
-					<img src="images/mooi.jpg">
-				</div>
 				<div>
 					<p>My name is Stan and i'm 18 years old. I am a Software Developer student at ROC van Flevoland.</p>
+				</div>
+				<div class="imgbox">
+					<img src="images/mooi.jpg">
 				</div>
 			</div>
 		</div>
