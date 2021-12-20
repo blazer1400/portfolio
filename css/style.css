@@ -283,7 +283,7 @@ body {
         width:100%;
     }
     .aboutme {
-        margin-top:-200px;
+        font-size:20px;
     }
     .aboutme .imgbox {
         float: none;
