@@ -272,6 +272,9 @@ body {
     margin-top:50px;
 }
 @media all and (max-width:780px) {
+    body {
+        overflow:show;
+    }
     .nav {
         display:none;
     }
