@@ -291,12 +291,13 @@ body {
     }
     .aboutme p {
         font-size:20px;
+        width:100%;
     }
     .aboutme .imgbox {
         float: none;
     }
     .aboutme .text {
-        width:90%;
+        width:80%;
         margin-top:20px;
     }
     .myskills {
