@@ -30,6 +30,7 @@ var mywork = document.getElementById("mywork");
 var contact = document.getElementById("contact");
 
 function show(article) {
+	hideDropdown()
     switch (article) {
         case "aboutme":
             myskills.style.opacity = "0";
