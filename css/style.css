@@ -104,7 +104,7 @@ body {
     position:relative;
 }
 .portfolio-container .nav div {
-    height:25vh;
+    height:20vh;
 }
 .portfolio-container nav div button {
     display:block;
@@ -184,7 +184,7 @@ body {
     width: 90%;
 }
 .myskills p {
-    margin-top:4%;
+    margin-top:2%;
 }
 .myskills * {
     box-sizing:border-box;
@@ -204,7 +204,7 @@ body {
     color: white;
 }
 
-.myskills .html, .myskills .css, .myskills .js, .myskills .php, .myskills .sql, .myskills .java {
+.myskills .html, .myskills .css, .myskills .js, .myskills .php, .myskills .sql, .myskills .java, .myskills .wp {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -232,6 +232,10 @@ body {
 .myskills .java {
     width:30%;
     background-color: #f48836;
+}
+.myskills .wp {
+    width: 30%;
+    background-color: #4dced2;
 }
 .mywork {
     display:none;
@@ -270,6 +274,10 @@ body {
 }
 .contact iframe {
     margin-top:50px;
+}
+.nav a, .nav a:active, .nav a:visited, .mobile-nav a, .mobile-nav a:active, .mobile-nav a:visited{
+    color:white;
+    text-decoration: none;
 }
 @media all and (max-width:780px) {
     body {
