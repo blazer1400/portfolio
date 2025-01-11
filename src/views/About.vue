@@ -18,21 +18,20 @@
             </div>
           </div>
         </div>
-        <img src="@/assets/img/portrait.jpg" class="pointer-events-none absolute w-64 z-20 top-0 right-0" />
+        <img src="@img/portrait.jpg" class="pointer-events-none absolute w-64 z-20 top-0 right-0" />
       </card>
       <div class="absolute left-1/2 transform -translate-x-1/2 bottom-10 cursor-pointer animate-bounce transition-all duration-300" :class="showArrow ? 'opacity-100' : 'opacity-0'">
         <i class="uil uil-angle-down text-4xl" @click="this.$refs.page2.scrollIntoView({block: 'end'})"/>
       </div>
     </div>
     <div class="w-screen h-screen bg-gray-50 flex items-center justify-center" ref="page2">
-      <div class="w-[75rem]">
-        <p class="text-2xl font-bold text-primary">My name is Stan. I am 20 years old and i am currently in service as an front-end developer at TBB Express.</p>
-        <div class="space-y-10 mt-20 p-4 text-lg">
+      <card class="w-[70rem] p-14">
+        <p class="text-2xl font-bold text-primary">My name is Stan. I am 20 years old and i am currently in service as an fullstack developer at TBB Express.</p>
+        <div class="space-y-10 mt-14 p-4 text-lg">
           <p>I started learning how to program when i was in secondary school. After school, i would follow tutorials online on how to make sites using html/css, and eventually, also with PHP and JavaScript. I enjoyed this so much, i decided to follow the Software Developer study at ROC van Flevoland.</p>
-          <p>At ROC, i would learn to make more advanced sites, and follow an internship at COTIT. During my time at COTIT, i learned a lot about VueJS and Laravel. After my six-month internship, i got a job offer at TBB Express as an front-end developer.</p>
-          <p>I am currently working at TBB Express, while following the AD degree study Software Developer at Windesheim.</p>
+          <p>At ROC, i would learn to make more advanced sites, and follow an internship at COTIT. During my time at COTIT, i learned a lot about VueJS and Laravel. After my six-month internship, i got a job offer at TBB Express as an front-end developer and eventually, became a fullstack developer.</p>
         </div>
-      </div>
+      </card>
     </div>
   </div>
 </template>
