@@ -1,5 +1,5 @@
 <template>
-  <button class="p-4 h-full w-full hover:bg-primary hover:text-white text-primary font-bold ">
+  <button class="whitespace-nowrap border-b border-primary h-full w-32 hover:bg-primary text-white font-medium ">
     <slot></slot>
   </button>
 </template>

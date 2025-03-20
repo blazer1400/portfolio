@@ -1,7 +1,7 @@
 <template>
 
-  <div class="relative m-16">
-    <button @click="this.$emit('changeLocation', {name: 'projects'})" class="absolute -top-4 -left-4 bg-white border border-primary rounded px-3 py-2 text-primary transition-all duration-300 hover:bg-primary hover:text-white">
+  <div class="relative m-16 flex items-center justify-center h-full">
+    <button @click="this.$emit('changeLocation', {name: 'projects'})" class="absolute top-0 -left-4 border border-primary rounded px-3 py-2 text-primary transition-all duration-300 hover:bg-primary hover:text-white">
       <i class="uil uil-angle-left-b" />
       Back
     </button>
@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     source(img) {
-      return 'data:image/png;base64,' + img
+      return '../src/assets/img/projects/' + img
     }
   }
 }

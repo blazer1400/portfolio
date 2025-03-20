@@ -1,6 +1,5 @@
 <template>
   <div class="m-16">
-    <p class="text-3xl font-medium">Projects</p>
     <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-16">
       <card v-for="(project, index) in projects" @click="this.$emit('changeLocation', {name: 'show', params: {id: project.id}})"
             class="group cursor-pointer w-full transition-all duration-200 h-40 flex items-center justify-start"
@@ -36,7 +35,7 @@ export default {
   },
   methods: {
     source(img) {
-      return 'data:image/png;base64,' + img
+      return './src/assets/img/projects/' + img
     }
   }
 }

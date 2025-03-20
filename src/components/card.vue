@@ -1,5 +1,5 @@
 <template>
-  <div class="gap-4 overflow-hidden rounded-xl bg-white border shadow-lg relative transition-all duration-500">
+  <div class="gap-4 overflow-hidden rounded-xl bg-slate-900 shadow-lg relative text-white transition-all duration-500">
     <slot></slot>
   </div>
 </template>

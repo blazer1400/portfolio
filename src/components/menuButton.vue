@@ -1,7 +1,8 @@
 <template>
-  <button class="text-xl border-2 border-primary p-4 w-60 hover:bg-primary hover:text-white transition-all duration-200">
+  <a class="text-xl rounded p-4 w-full h-full text-center cursor-pointer transition-all duration-200 group relative overflow-hidden hover:shadow text-white">
     <slot></slot>
-  </button>
+    <div class="absolute top-[99%] group-hover:top-0 duration-150 transition-all left-0 bg-primary w-full h-full -z-10"></div>
+  </a>
 </template>
 
 <script>
