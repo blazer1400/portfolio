@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     source(img) {
-      return './public/assets/img/projects/' + img
+      return new URL(`../assets/img/projects/${img}`, import.meta.url).href
     }
   }
 }
