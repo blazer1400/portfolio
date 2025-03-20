@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     source(img) {
-      return './src/assets/img/projects/' + img
+      return './public/assets/img/projects/' + img
     }
   }
 }
